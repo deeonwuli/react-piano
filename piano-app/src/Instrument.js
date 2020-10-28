@@ -1,6 +1,6 @@
 import React, { Fragment, useState, useEffect } from 'react'
 import InstrumentAudio from './keyboard/InstrumentAudio'
-import getNotesBetween from '.utils/getNotesBetween'
+import getNotesBetween from './utils/getNotesBetween'
 import isAccidentalNote from './utils/isAccidentalNote'
 import {getKeyboardShortcutsforNote} from './utils/getKeyboardShortcutsforNote'
 

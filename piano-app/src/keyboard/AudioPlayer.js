@@ -12,12 +12,10 @@ const NullSoundFontPlayer = {
 }
 
 const AudioPlayer = () => {
-    //Audio Context
     const audioContext = AudioContext && new AudioContext()
 
-    //soundPlayer
     let soundPlayer = NullSoundFontPlayer
-    //setInstrument
+
     const Player = {
         setInstrument(instrumentName) {
             SoundFontPlayer.instrument(audioContext, instrumentName)
